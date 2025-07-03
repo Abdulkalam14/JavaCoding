@@ -1,0 +1,10 @@
+class Solution {
+    static int trailingZeroes(int n) {
+        // code here
+        int res=0;
+        for(int i=5;i<=n;i=i*5){
+            res+=n/i;
+        }
+        return res;
+    }
+}
