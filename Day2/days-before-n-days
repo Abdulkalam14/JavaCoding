@@ -1,0 +1,11 @@
+class Solution {
+    public int dayBefore(int d, int n) {
+        int x=n%7;
+        int rd=d-x;
+        if(rd>0)
+        {
+            return rd;
+        }
+     return rd+7;
+    }
+}
