@@ -1,0 +1,35 @@
+#If you want full solution you can go through this links
+#https://www.naukri.com/code360/problems/sup-tag_15379963?leftPanelTabValue=SOLUTION
+#https://www.naukri.com/code360/problems/sup-tag_15379963?leftPanelTabValue=SUBMISSION
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sup Tag</title>
+</head>
+<body>
+    <div class="container-two">
+        <div class="concept-practice">
+            <h2>
+                Convert the following sentence into mathematical expression using &lt;sup&gt; tag: 
+            </h2>
+            <h4>Five To The Power Of Three plus Six To The Power of Four Equals One Thousand Four Hundred Twenty One</h4>
+            <div class="solution">
+                <h2>
+                        <small>Your answer : </small>
+                        <span class="html-code">
+                        <span class="base">5</span>
+                        <sup>3</sup>
+                        <span class="symbol">+</span>
+                        <span class="base">6</span> 
+                        <sup>4</sup>
+                        <span class="symbol">=</span>
+                        <span class="result">1421</span>     
+                    </span>
+                </h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
