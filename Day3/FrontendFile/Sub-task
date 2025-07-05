@@ -1,0 +1,39 @@
+#This is the solution solved in my CodingNinjas Platform if you want full solution You can go through my subissions
+#https://www.naukri.com/code360/problems/sub-tag_15378246?leftPanelTabValue=SUBMISSION
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sub Tag</title>
+
+    <style>
+
+      
+    </style>
+</head>
+<body>
+    <div class="container-two">
+        <div class="concept-practice">
+            <h2>
+                Write the chemical formula for water using the &lt;sub&gt; tag. (Hint : the 2 in H20 is the subscript)
+            </h2>
+
+            
+            <h4>H2O is the chemical formula for water.</h4>
+            <div class="solution">
+                <h2>
+                         <span class="html-code">
+                           <span class="alphabet">H</span>
+                           <sub>2</sub>
+                           <span class="alphabet">O</span>
+                         </span>
+                    <span class="sentence">
+                        is the chemical formula for water.
+                    </span>
+                </h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
