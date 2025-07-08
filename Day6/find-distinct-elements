@@ -1,0 +1,25 @@
+
+class Solution {
+    static int distinct(int arr[]) {
+        int n=arr.length;
+        int count=0;
+        boolean isdict=true;
+        for(int i=0;i<n;i++)
+        {
+            for(int j=(i-1);j>=0;j--)
+            {
+                if(arr[j]==arr[i])
+                {
+                    isdict=false;
+                    break;
+                }
+            }
+            if(isdict==true)
+            {
+                count++;
+            }
+           isdict=true;
+        } 
+        return count;
+    }
+}
