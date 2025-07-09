@@ -1,0 +1,27 @@
+https://www.geeksforgeeks.org/problems/print-matrix-in-snake-pattern-1587115621/1
+
+class Solution {
+    
+    static ArrayList<Integer> snakePattern(int matrix[][]) {
+        ArrayList<Integer>arr=new ArrayList<>();
+        int row=matrix.length;
+        int col=matrix[0].length;
+        for(int i=0;i<row;i++)
+        {
+            if(i%2==0)
+            {
+                for(int j=0;j<col;j++){
+                    arr.add(matrix[i][j]);
+                }
+            }
+            else{
+                for(int j=col-1;j>=0;j--)
+                {
+                    arr.add(matrix[i][j]);
+                }
+            }
+        }
+        return arr;
+        
+    }
+}
