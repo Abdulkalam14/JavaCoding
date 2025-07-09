@@ -1,0 +1,17 @@
+class Solution {
+    public static int[] colSum(int mat[][]) {
+        int r=mat.length;
+        int c=mat[0].length;
+        int []res=new int[c];
+        for(int j=0;j<c;j++)
+        {
+            int sum=0;
+            for(int i=0;i<r;i++)
+            {
+                sum+=mat[i][j];
+            }
+            res[j]=sum;
+        }
+        return res;
+    }
+}
