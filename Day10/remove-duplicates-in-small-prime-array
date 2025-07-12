@@ -1,0 +1,25 @@
+####https://www.geeksforgeeks.org/problems/remove-duplicates-in-small-prime-array/1
+
+class Solution {
+    ArrayList<Integer> remDuplicate(int arr[]) {
+        
+        ArrayList<Integer>res=new ArrayList<>();
+        int n=arr.length;
+        for(int i=0;i<n;i++)
+        {
+            boolean isvist=true;
+            for(int j=i-1;j>=0;j--)
+            {
+                if(arr[j]==arr[i]){
+                    isvist=false;
+                    break;
+                }
+            }
+            if(isvist==true)
+            {
+                res.add(arr[i]);
+            }
+        }
+        return res;
+    }
+}
