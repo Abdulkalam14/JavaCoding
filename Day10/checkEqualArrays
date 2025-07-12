@@ -1,0 +1,13 @@
+https://www.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not3847/1
+
+
+
+class Solution {
+    public static boolean checkEqual(int[] a, int[] b) {
+        // Your code here\
+         Arrays.sort(a);
+         Arrays.sort(b);
+         return Arrays.equals(a,b);
+        
+    }
+}
