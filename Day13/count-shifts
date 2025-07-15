@@ -1,0 +1,44 @@
+https://www.hackerrank.com/contests/aces-coders-v6-0-practice-round-2/challenges/count-shifts
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    private static int countInsertionSort(int[] arr)
+    {
+        int n=arr.length;
+        int c=0;
+        for(int i=1;i<n;i++)
+        {
+            int temp=arr[i];
+            int j=i-1;
+            while(j>=0 &&arr[j]>temp)
+            {
+                arr[j+1]=arr[j];
+                j--;
+                c++;
+            }
+            arr[j+1]=temp;
+        }
+        return c;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int t=sc.nextInt();
+        while(t>0)
+        {
+            int n=sc.nextInt();
+            int[] arr=new int[n];
+            for(int i=0;i<n;i++){
+                arr[i]=sc.nextInt();
+            }
+            int[] arr2=new int[n];
+            for(int i=0;i<n;i++)
+            {
+                arr2[i]=arr[i];
+            }
+            System.out.println(countInsertionSort(arr2));
+            t--;
+        }
+    }
+}
