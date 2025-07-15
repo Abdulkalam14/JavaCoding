@@ -1,0 +1,31 @@
+import java.util.Arrays;
+
+class LFC {
+    // Function to perform insertion sort in descending order
+    void insertion_sort(int[] arr) {
+        int size = arr.length;
+
+        for (int step = 1; step < size; step++) {
+            int key = arr[step];
+            int j = step - 1;
+
+            // For descending order, keep key > arr[j]
+            while (j >= 0 && key > arr[j]) {
+                arr[j + 1] = arr[j];
+                --j;
+            }
+
+            arr[j + 1] = key;
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] arr = { 15, 50, -27, -4, 10 };
+
+        LFC is = new LFC();
+        is.insertion_sort(arr);
+
+        System.out.println("Sorted Array in Descending Order:");
+        System.out.println(Arrays.toString(arr));
+    }
+}
