@@ -1,0 +1,49 @@
+https://www.geeksforgeeks.org/problems/merge-sort/1
+
+class Solution {
+    
+    void merge(int[] arr,int l,int m,int r)
+    {
+        int n=arr.length;
+        int[] temp=new int[r-l+1];
+        int low=l;
+        int high=m+1;
+        int k=0;
+        while(low<=m&&high<=r)
+        {
+            if(arr[low]<=arr[high])
+            {
+                temp[k++]=arr[low++];
+              
+            }
+            else{
+                temp[k++]=arr[high++];
+               
+            }
+        }
+        while(low<=m)
+        {
+            temp[k++]=arr[low++];
+          
+        }
+        while(high<=r)
+        {
+             temp[k++]=arr[high++];
+             
+        }
+        for(int i=0;i<temp.length;i++)
+        {
+            arr[l+i]=temp[i];
+        }
+    }
+    void mergeSort(int arr[], int l, int r) {
+        // code here
+        if(l>=r)
+        return ;
+        int mid=l+(r-l)/2;
+        mergeSort(arr,l,mid);
+        mergeSort(arr,mid+1,r);
+        merge(arr,l,mid,r);
+        
+    }
+}
