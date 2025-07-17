@@ -1,0 +1,13 @@
+https://www.naukri.com/code360/problems/html-del-tag_16980481?leftPanelTabValue=PROBLEM
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del Tag</title>
+</head>
+<body>
+    <p>I <del >have</del> <ins>want</ins> to go to the gym everyday.</p>
+</body>
+</html>
