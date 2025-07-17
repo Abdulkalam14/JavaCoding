@@ -1,0 +1,32 @@
+https://www.naukri.com/code360/problems/table-part-3-rowspan-attribute_17045935?leftPanelTabValue=PROBLEM
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Rowspan Attribute</title>
+
+   
+</head>
+<body>
+   <table>
+       <tr>
+       <th rowspan="3">
+           Programming Languages
+           <td>python</td>
+           <td>Ruby</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>Java</td>
+        </tr>
+       </th>
+   </table>
+
+  
+</body>
+</html>
