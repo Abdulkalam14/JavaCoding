@@ -1,0 +1,40 @@
+https://www.naukri.com/code360/problems/html-table-part-4-colspan_17076872?leftPanelTabValue=PROBLEM
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Table Colspan Attribute</title>
+
+</head>
+<body>
+<h2 style="text-align: center;">Compact Class Schedule</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Subject</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Monday</td>
+            <td>9:00 AM - 10:00 AM</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="2">No Classes</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>10:00 AM - 11:00 AM</td>
+            <td>Physics</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
