@@ -1,0 +1,33 @@
+https://www.naukri.com/code360/problems/html-range-input_17076818?leftPanelTabValue=PROBLEM
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range Input</title>
+   
+</head>
+<body>
+    <div class="container">
+        <h5>Range input between (20 and 100)</h5>
+
+        <!-- write your code here. -->
+
+        <input type="range" id="rangeInput" min="20" max="100">
+
+        <div class="value-display" id="valueDisplay">Value: 20</div>
+        
+    </div>
+
+    <script>
+        const rangeInput = document.getElementById('rangeInput');
+        const valueDisplay = document.getElementById('valueDisplay');
+
+        // Update the display when the input value changes
+        rangeInput.addEventListener('input', () => {
+            valueDisplay.textContent = `Value: ${rangeInput.value}`;
+        });
+    </script>
+</body>
+</html>
