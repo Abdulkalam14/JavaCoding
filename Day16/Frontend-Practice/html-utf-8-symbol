@@ -1,0 +1,23 @@
+https://www.naukri.com/code360/problems/html-utf-8-symbol_17132614?leftPanelTabValue=PROBLEM
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled 100 Rupees Note</title>
+
+</head>
+<body>
+  <div class="currency">
+    <div class="serial">
+      <span>Serial No:</span>
+      <span>AB12345678</span>
+    </div>
+    <div class="amount">
+      <span class="symbol">&#x20B9;</span>
+      100
+    </div>
+  </div>
+</body>
+</html>
