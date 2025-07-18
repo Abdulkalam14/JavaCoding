@@ -1,0 +1,15 @@
+https://www.geeksforgeeks.org/problems/1-d-prefix-sum/1
+
+class Solution {
+    public ArrayList<Integer> prefSum(int[] arr) {
+        // code here
+        ArrayList<Integer>res=new ArrayList<>();
+        res.add(arr[0]);
+        for(int i=1;i<arr.length;i++)
+        {
+            int val=res.get(i-1)+arr[i];
+            res.add(val);
+        }
+        return res;
+    }
+}
