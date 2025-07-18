@@ -1,0 +1,24 @@
+https://www.naukri.com/code360/problems/html-dir-attribute_17146230?leftPanelTabValue=PROBLEM
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dir Attribute</title>
+</head>
+
+<body>
+    
+    <div class="container" dir="rtl">
+        <p>
+            Perseverance is the key to unlocking your potential.
+            With consistent effort and determination, you can overcome any obstacle and achieve your goals.
+        </p>
+
+        <button>
+            Read More
+        </button>
+    </div>
+</body>
+</html>
