@@ -1,0 +1,32 @@
+https://www.naukri.com/code360/problems/html-code-tag_16980484?leftPanelTabValue=PROBLEM
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer code</title>
+
+    
+</head>
+
+<body>
+    <div class="codebox">
+        <h2>Javascript Function</h2>
+        <pre>
+            <code>
+                function add(a, b) { return a + b; }
+            </code>
+        </pre>
+    </div>
+     <div class="codebox">
+         <h2>Python Function</h2>
+         <pre>
+             <code>
+                 def add(a, b): return a + b
+             </code>
+        </pre>
+    </div>
+    
+</body>
+</html>
