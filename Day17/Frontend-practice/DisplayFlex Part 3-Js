@@ -1,0 +1,10 @@
+document.getElementById('change-display').addEventListener('click', function() {
+  var container = document.querySelector('.container');
+  var currentDirection = getComputedStyle(container).flexDirection;
+
+  if (currentDirection === 'column') {
+    container.style.flexDirection = 'row';
+  } else {
+    container.style.flexDirection = 'column';
+  }
+});
