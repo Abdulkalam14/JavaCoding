@@ -1,0 +1,30 @@
+https://leetcode.com/problems/find-pivot-index/submissions/1703891707/
+
+class Solution {
+    public int pivotIndex(int[] nums) {
+        int sum=0;
+        int lsum=0;
+        int n=nums.length;
+
+        for(int i=0;i<n;i++)
+        {
+            lsum+=nums[i];
+        }
+        if(lsum-nums[0]==0)
+        {
+            return 0;
+        }
+        for(int j=n-1;j>0;j--)
+        {
+            lsum-=nums[j];
+          
+            if(lsum==sum)
+            {
+                return j;
+               
+            }
+            sum+=nums[j];
+        }
+        return -1;
+    }
+}
