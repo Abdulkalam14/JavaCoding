@@ -1,0 +1,12 @@
+https://www.naukri.com/code360/problems/display-flex-part-2_11058419
+
+
+.container{
+    display:flex;
+    flex-direction:row;
+}
+.container .container-flex{
+    width:50%;
+    height:200px;
+    border:5px solid black;
+}
