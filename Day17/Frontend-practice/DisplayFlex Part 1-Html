@@ -1,0 +1,27 @@
+https://www.naukri.com/code360/problems/display-flex-part-1_11058418
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+    <title>Display Flex</title>
+</head>
+<body>
+  <div class="container">
+      <div class="container-flex">
+          
+         
+      </div>
+      <div class="container-flex">
+          
+      </div>
+    </div>
+   
+
+
+
+</body>
+</html>
