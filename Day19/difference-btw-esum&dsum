@@ -1,0 +1,23 @@
+https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/
+
+class Solution {
+    public int differenceOfSum(int[] nums) {
+        int tsum=0;
+        int n=nums.length;
+        int dsum=0;
+        for(int i=0;i<n;i++)
+        {
+            tsum+=nums[i];
+        }
+        for(int i:nums){
+            while(i>0)
+            {
+                int ld=i%10;
+                dsum+=ld;
+                i=i/10;
+            }
+        }
+        return Math.abs(tsum-dsum);
+
+    }
+}
