@@ -1,0 +1,26 @@
+https://www.geeksforgeeks.org/problems/maximum-prefix-sum-for-a-given-range0227/1
+
+class Solution {
+    public List<Integer> maxPrefixes(List<Integer> arr, List<Integer> leftIndex,
+                                     List<Integer> rightIndex) {
+        // code here.
+        
+        List<Integer>res=new ArrayList<>();
+        int n=leftIndex.size();
+        for(int i=0;i<n;i++)
+        {
+            int left=leftIndex.get(i);
+            int right=rightIndex.get(i);
+            
+            int currSum=0;
+            int maxPrefix=Integer.MIN_VALUE;
+            for(int j=left;j<=right;j++)
+            {
+                currSum+=arr.get(j);
+                maxPrefix=Math.max(currSum,maxPrefix);
+            }
+            res.add(maxPrefix);
+        }
+       return res;
+    }
+}
