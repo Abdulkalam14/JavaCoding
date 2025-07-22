@@ -1,0 +1,42 @@
+https://www.naukri.com/code360/problems/html-blockquote_16896310
+
+*****************************************************************************************************************************************
+#html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockquote</title>
+
+</head>
+
+<body>
+    
+          
+    <blockquote class="quote-container">
+    <p class="quote">"With great power, <em>comes great responsibility</em> ."</p>
+    <p class="author">-<strong>Spiderman</strong></p>
+    </blockquote>
+</body>
+</html>
+
+********************************************************************************************************************
+#CSS
+
+.quote-container{
+    border:blue solid 4px;
+    padding:16px;
+    background-color: crimson;
+    color: white;
+    max-width: fit-content;
+}
+.quote{
+    font-size:20px;
+}
+.author{
+    font-size:18px;
+}
+em{
+    font-weight:bold;
+}
