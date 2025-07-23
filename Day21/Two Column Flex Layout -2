@@ -1,0 +1,71 @@
+https://www.naukri.com/code360/problems/two-column-layout-using-flexbox-part-2_17217480
+
+**********************************************************************************************
+#index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout </title>
+
+   
+</head>
+<body>
+    <!-- write your code here-->
+    <div class="container">
+        <div class="left">
+            <h2>Mindfulness</h2>
+            <img src="https://images.pexels.com/photos/355863/pexels-photo-355863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="200" height="100">
+        </div>
+        <div class="right">
+            <p>Mindfulness is the practice of being aware of one's thoughts,
+                emotions, and surroundings in the present moment, without judgement or reaction
+            </p>
+            <span>#spirituality101</span>
+        </div>
+            
+    </div>
+</body>
+</html>
+****************************************************************************************************************************************************
+
+#index.css
+
+/* write your code here */
+.container{
+    display:flex;
+    padding:16px;
+    max-width:450px;
+    border:2px solid black;
+    margin:48px auto;
+}
+.left,.right{
+    flex:1;
+}
+h2,p{
+    text-align: center;
+    padding:32px;
+}
+h2{
+    padding:32px;
+}
+p{
+    border-left:2px solid black;
+}
+img{
+    display:block;
+    margin:auto;
+}
+
+span{
+    display:block;
+    border:2px solid black;
+    width:128px;
+    margin-left:auto;
+    padding:6px;
+    background-color:grey;
+    font-weight:bold;
+    color:white;
+}
