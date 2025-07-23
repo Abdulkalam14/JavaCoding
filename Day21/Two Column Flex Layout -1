@@ -1,0 +1,28 @@
+https://www.naukri.com/code360/problems/two-column-flex-layout-part-1_17217469
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout </title>
+
+   
+</head>
+<body>
+    <!-- write your code here-->
+    <div class="container">
+        <div class="left">
+            <h2>Mindfulness</h2>
+            <img src="https://images.pexels.com/photos/355863/pexels-photo-355863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="200" height="100">
+        </div>
+        <div class="right">
+            <p>Mindfulness is the practice of being aware of one's thoughts,
+                emotions, and surroundings in the present moment, without judgement or reaction
+            </p>
+            <span>#spirituality101</span>
+        </div>
+            
+    </div>
+</body>
+</html>
