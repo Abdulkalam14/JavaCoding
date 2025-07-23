@@ -1,0 +1,40 @@
+https://www.naukri.com/code360/problems/css-columns_17225177
+
+*************************************************************************************************************************************
+#index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Columns Property</title>
+   
+</head>
+<body>
+    <div class="container">
+        <h2>Space: A Vast Frontier</h2>
+        <p>Space is a boundless expanse that begins where Earth's atmosphere ends. It is largely a vacuum, devoid of air and filled with wonders like stars, planets, and galaxies. Our solar system is just one of billions in the Milky Way galaxy, which itself is only a small part of the observable universe. The nearest star to Earth, aside from the Sun, is Proxima Centauri, located over 4 light-years away.</p>
+        <p>Exploration of space began with the launch of Sputnik in 1957, followed by humankind's first steps on the Moon in 1969. Modern telescopes like the James Webb Space Telescope allow us to peer into the distant past of the universe, unveiling secrets about its origin and evolution. Black holes, supernovae, and dark matter continue to challenge our understanding of physics.</p>
+    </div>
+</body>
+</html>
+****************************************************************************************************************************************************
+#index.css
+
+.container{
+    columns:3;
+    column-rule-style:solid;
+    max-width: 500px;
+    padding : 16px;
+    line-height: 23px;
+    border : 3px dotted blue;
+    margin : 0 auto;
+    font-size : 16px;
+    color : white;
+    background-color: maroon;
+}
+
+h2{
+    text-align: right;
+    column-span:all;
+}
