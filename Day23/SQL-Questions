@@ -1,0 +1,29 @@
+1. Write a SQL query to fetch "FIRST_NAME" from the Student table in upper case and use ALIAS name as STUDENT_NAME.
+
+2. Write a SQL query to fetch unique values of MAJOR Subjects from Student table.
+
+3. Write a SQL query to print the first 3 characters of FIRST_NAME from Student table.
+
+4. Write a SQL query to find the position of alphabet ('a') int the first name column 'Shivansh' from Student table.
+
+4. Write a SQL query to find the position of alphabet ('a') int the first name column 'Shivansh' from Student table.
+
+6. Write a SQL query to print FIRST_NAME from the Student table after replacing 'a' with 'A'.
+
+7. Write a SQL query to print the FIRST_NAME and LAST_NAME from Student table into single column COMPLETE_NAME.
+
+8. Write a SQL query to print all Student details from Student table order by FIRST_NAME Ascending and MAJOR Subject descending
+
+9. Write a SQL query to print details of the Students with the FIRST_NAME as 'Prem' and 'Shivansh' from Student table.
+
+10. Write a SQL query to print details of the Students excluding FIRST_NAME as 'Prem' and 'Shivansh' from Student table.
+
+11. Write a SQL query to print details of the Students whose FIRST_NAME ends with 'a'.
+
+12. Write an SQL query to print details of the Students whose FIRST_NAME ends with ‘a’ and contains five alphabets.
+
+13. Write an SQL query to print details of the Students whose GPA lies between 9.00 and 9.99.
+
+14. Write an SQL query to fetch the count of Students having Major Subject ‘Computer Science’.
+
+15. Write an SQL query to fetch Students full names with GPA >= 8.5 and <= 9.5.
