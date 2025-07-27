@@ -1,0 +1,19 @@
+https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/
+
+class Solution {
+    public int minStartValue(int[] nums) {
+        int sum=0;
+        int n=nums.length;
+        int min=Integer.MAX_VALUE;
+        for(int i=0;i<n;i++)
+        {
+           sum+=nums[i];
+            min=Math.min(min,sum);
+        } 
+        if(min<0)
+        {
+            return 1-min;
+        }
+        return 1;
+    }
+}
