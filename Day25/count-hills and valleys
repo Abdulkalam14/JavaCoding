@@ -1,0 +1,26 @@
+https://leetcode.com/problems/count-hills-and-valleys-in-an-array/description/
+
+class Solution {
+    public int countHillValley(int[] nums) {
+        int n=nums.length;
+        List<Integer>temp=new ArrayList<>();
+        temp.add(nums[0]);
+        int c=0;
+        for(int i=1;i<n;i++)
+        {
+            if(nums[i-1]!=nums[i])
+            {
+                temp.add(nums[i]);
+            }
+        }
+        for(int i=1;i<temp.size()-1;i++)
+        {
+            if((temp.get(i)<temp.get(i-1) && temp.get(i)<temp.get(i+1))||
+            (temp.get(i)>temp.get(i-1) && temp.get(i)>temp.get(i+1)))
+            {
+                 c++;
+            }
+        }
+        return c;
+    }
+}
