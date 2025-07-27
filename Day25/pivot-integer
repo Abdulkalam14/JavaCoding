@@ -1,0 +1,17 @@
+https://leetcode.com/problems/find-the-pivot-integer/description/
+
+class Solution {
+    public int pivotInteger(int n) {
+       int sum=n*(n+1)/2;
+       for(int i=1;i<=n;i++)
+       {
+       int leftsum=i*(i+1)/2;
+        int rightsum=sum-((i-1)*i/2);
+       if(leftsum==rightsum)
+       {
+         return i;
+       }
+       }
+       return -1;
+    }
+}
