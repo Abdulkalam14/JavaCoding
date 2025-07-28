@@ -1,0 +1,15 @@
+https://www.naukri.com/code360/problems/copy-and-reverse-the-array_1058196
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static int[] copyAndReverse(int[] arr, int n) {
+        // Write your code here.
+        int[] arr1=new int[n];
+        for(int i=0;i<n;i++)
+        {
+            arr1[i]=arr[n-1-i];
+        }
+       return arr1; 
+    }
+}
