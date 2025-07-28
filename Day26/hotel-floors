@@ -1,0 +1,20 @@
+https://www.naukri.com/code360/problems/hotel-floors_983624
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+  public static int hotelBookings(List<String> queries)
+  {
+      // Write your code here.
+      int c=0;
+      for(String i:queries)
+      {
+        if(i.charAt(0)=='+')
+        {
+          c+=1;
+        }
+       
+      }
+      return c;
+  }
+}
