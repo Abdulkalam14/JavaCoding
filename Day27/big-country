@@ -1,0 +1,5 @@
+https://www.naukri.com/code360/problems/big-country_2105461
+
+
+select name,population,area from World 
+where area>3000000 or population>25000000; 
