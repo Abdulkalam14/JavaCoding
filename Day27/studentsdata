@@ -1,0 +1,6 @@
+https://www.naukri.com/code360/problems/students-data_2105460
+
+insert into students values(3,'Kim','F'),
+(4,'Molina','F'),
+(5,'Dev','M');
+select * from students;
