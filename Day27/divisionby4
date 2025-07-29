@@ -1,0 +1,32 @@
+https://www.naukri.com/code360/problems/division-of-4_893337
+
+
+import java.util.* ;
+import java.io.*; 
+import java.util.ArrayList;
+
+public class Solution {
+    public static void divideByFour(ArrayList<Integer> arr){
+      
+        int n=arr.size();
+        ArrayList<Integer>res=new ArrayList<>();
+        for(int i=0;i<n;i++)
+        {
+            int x=arr.get(i)/4;
+            if(x==0)
+            {
+                res.add(-1);
+            } 
+            else{
+            res.add(x);
+            }
+            
+        }
+        arr.clear();
+        for(int j=0;j<n;j++){
+            System.out.print(res.get(j)+" ");
+        }
+        System.out.println();
+
+    }
+}
