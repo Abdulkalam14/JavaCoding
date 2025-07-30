@@ -1,0 +1,20 @@
+https://www.geeksforgeeks.org/batch/java-foundation-2/track/Java-Foundation-String-2/problem/change-case--141628
+
+// User function Template for Java
+
+// function to print the two string
+// first string: the first character is changed
+// to uppercase
+// second string: complete string is changed
+// to upper case.
+// print both the string in new line.
+class Solution {
+    public static void changeCase(String s) {
+        // code here
+        String Str=s.substring(0,1).toUpperCase()+s.substring(1);
+        String str1=s.toUpperCase();
+        
+        System.out.println(Str);
+        System.out.println(str1);
+    }
+}
