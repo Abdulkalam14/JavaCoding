@@ -1,0 +1,21 @@
+https://www.geeksforgeeks.org/batch/java-foundation-2/track/Java-Foundation-String-2/problem/print-alphabets--141628
+
+// User function Template for Java
+
+// function should print the alphabets
+// from c1 to c2 (space separated)
+// No need to print the new line
+// The new line will be printed by the
+// driver's code.
+class Solution {
+    public static void alphabets(char c1, char c2) {
+        // code here
+       
+        for(char i=c1;i<=c2;i++)
+        {
+         
+           System.out.print(i+" ");
+        }
+        
+    }
+}
