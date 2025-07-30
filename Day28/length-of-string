@@ -1,0 +1,13 @@
+https://www.geeksforgeeks.org/batch/java-foundation-2/track/Java-Foundation-String-2/problem/length-of-string
+
+
+
+class Solution {
+    // Complete the function
+    // str: input string
+    public static int lengthString(String str) {
+        // find the length of string
+        int n=str.length();
+        return n;
+    }
+}
