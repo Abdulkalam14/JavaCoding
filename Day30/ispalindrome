@@ -1,0 +1,18 @@
+https://www.geeksforgeeks.org/problems/palindrome-string0817/1
+
+class Solution {
+    boolean isPalindrome(String s) {
+        // code here
+         String res="";
+        for(int i=s.length()-1;i>=0;i--)
+        {
+            res+=s.charAt(i);
+        }
+        if(s.length()<=1)
+        {
+            return false;
+        }
+      
+        return s.equalsIgnoreCase(res);
+    }
+}
