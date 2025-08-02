@@ -1,0 +1,16 @@
+https://www.geeksforgeeks.org/problems/decimal-to-binary-1610434291/1
+
+// User function Template for Java
+class Solution {
+    public static String toBinary(int n) {
+        // Code here
+        String res="";
+        while(n>=1)
+        {
+            int x=n%2;
+            n=n/2;
+            res=x+res;
+        }
+        return res;
+    }
+}
