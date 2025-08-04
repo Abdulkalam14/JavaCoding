@@ -1,0 +1,13 @@
+https://www.geeksforgeeks.org/problems/remove-spaces0128/1
+
+// User function Template for Java
+class Solution {
+
+    String modify(String s) {
+      
+        String res=s.replaceAll("\\s","");
+        
+         
+        return res;
+    }
+}
