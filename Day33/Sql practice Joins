@@ -1,0 +1,16 @@
+1.https://www.codechef.com/learn/course/sql-intermediate/SQ00BS01/problems
+
+select 
+student.St_id,student.St_Name,student.Department,student.Course_id,	course.Course_id,course.Course_Name,course.Credits,course.Prof_id 
+from student  inner join course on student.Course_id=course.Course_id ;
+
+2.https://www.naukri.com/code360/problems/combine-two-tables_2110759
+select Person.FirstName,Person.LastName,Address.City,Address.State 
+from Person left join Address 
+on Address.PersonId=Person.PersonId;
+
+3.https://www.naukri.com/code360/problems/rank-scores_2117771
+SELECT 
+  score, 
+  DENSE_RANK() OVER (ORDER BY score DESC) AS "RANK"
+FROM Scores;
